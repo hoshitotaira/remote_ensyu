@@ -1,0 +1,74 @@
+
+
+.haikei { 
+    background-image: url("images/bg_Argyle.jpg") ;
+} 
+
+.tyuuou {
+    text-align: center;
+
+}
+
+
+ul.siromaru{
+    list-style-type: circle;
+}
+
+img.img-box{
+    margin: auto;
+    display:block ;
+    border:double 10px #fa8072;
+}
+
+
+
+table{
+    background-color:#ffffe0;
+    border-color:#fa8072;
+}
+
+caption{
+    color: #fa8072;
+}
+
+tr{
+    border-color: #fa8072;
+}
+
+  div.parent_box {
+    display: flex;
+  }
+
+div.wakusen{
+
+    margin: auto;
+    display:block ;
+    border-radius: 20px 20px 20px 20px ;
+    border-color: plum;
+    border-width: 2px;
+    border-style: solid;
+    width:600px;
+    background-color: white;
+    box-shadow: 5px 5px 5px silver ;
+    height: 500px;
+}
+
+
+.tarea{
+    display: inline-block;
+    width: 45%;
+    border: 1px solid ;
+    box-sizing: border-box;
+    background: white;
+    height: 60px;
+}
+
+label{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.kankaku{
+    margin-right: 15px;
+}
