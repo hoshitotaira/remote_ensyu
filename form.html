@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>質問・感想フォーム</title>
+        <link rel="stylesheet" href="recipe.css">
+    </head>
+
+<body class="haikei">
+
+    <div class="tyuuou">  
+        <h1>質問・感想フォーム</h1>
+
+
+        <div class="wakusen">
+         
+
+            <p>氏名</p>
+
+                <input type="text" name="name" >
+
+            <p>性別</p>
+
+                <label><input type="radio"  name="sei" value="male" checked>男</label>
+                <label><input type="radio"  name="sei" value="female">女</label>
+         
+
+            <p>年齢</p>
+
+                <select name="年齢">
+                    <option value="10代" >10代</option>
+                    <option value="20代">20代</option>
+                </select>
+
+
+
+            <p>今後見てみたいレシピ</p>
+
+        
+
+                <label><input type="checkbox" name="recipe" value="japanese food"  >和食</label>
+                <label><input type="checkbox" name="recipe" value="chinese food" >中華</label>
+                <label><input type="checkbox" name="recipe" value="western food" >洋食</label>
+                <label><input type="checkbox" name="recipe" value="italian" >イタリアン</label>
+                <label><input type="checkbox" name="recipe" value="sweets" > スイーツ</label>
+                <label><input type="checkbox" name="recipe" value="sonota" >その他</label>
+
+
+            <p>自由コメント欄</p>
+
+                <textarea class="tarea">自由に意見を記述してください</textarea>
+
+            <br>
+                
+                <button class="kankaku" type="submit">送信</button>
+                <button class="kankaku" type="submit">取り消し</button>
+
+        </div>
+
+    </div>
+
+    
+    </body>
+</html>
